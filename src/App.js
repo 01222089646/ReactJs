@@ -1,8 +1,9 @@
 import React, { Component } from 'react';
 import logo from './logo.svg';
+import './Component/Header.css';
 import './App.css';
-import LoginForm from './Component/LoginForm'
-import Header from './Component/Header'
+import LoginForm from './Component/LoginForm';
+import Header from './Component/Header';
 
 
 
@@ -18,3 +19,4 @@ class App extends Component {
 }
 
 export default App;
+                          
