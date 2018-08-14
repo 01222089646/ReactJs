@@ -1,10 +1,8 @@
 import React, { Component } from 'react';
-import logo from './logo.svg';
 import './Component/Header.css';
 import './App.css';
-import LoginForm from './Component/LoginForm';
 import Header from './Component/Header';
-
+import AppRouter from './Component/AppRouter'
 
 
 class App extends Component {
@@ -12,7 +10,8 @@ class App extends Component {
     return (
       <div className="App">
         <Header></Header>
-        <LoginForm></LoginForm>
+        <AppRouter></AppRouter>
+
       </div>
     );
   }

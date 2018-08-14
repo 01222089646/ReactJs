@@ -1,5 +1,24 @@
 import React from 'react'
 import {BrowserRouter as Router, Route, Switch} from 'react-router-dom';
-import Loadable from 'react-loadable';
+import Home from './Home'
+import LoginForm from './LoginForm'
 
-const Loading = () => <div>Loading..</div>
+
+class AppRouter extends React.Component {
+    
+    render() {
+      return (
+        <div className="AppRouter">
+         <Router>
+              <Switch>
+            
+            <Route exact path="/" component={Home}/>
+            <Route path="/login" component={LoginForm}/>            
+              
+              </Switch>
+          </Router>
+        </div>
+      );
+    }
+  }
+export default AppRouter;
