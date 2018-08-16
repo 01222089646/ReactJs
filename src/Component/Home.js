@@ -7,14 +7,14 @@ class Home extends React.Component {
         super(props);
         this.state = { logged: true };
     }
-    
+
 
 
 
     render() {
         return (
             <div>
-               
+                Đây là trang web mua sắm 
             </div>
         );
     }

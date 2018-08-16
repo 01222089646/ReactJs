@@ -34,22 +34,22 @@ class LoginForm extends React.Component {
 
     return (
 
-      <div>
-        <Form horizontal>
+      <div >
+        <Form horizontal alignMid>
           <FormGroup controlId="formHorizontalEmail">
             <Col componentClass={ControlLabel} sm={2}>
               Email
               </Col>
-            <Col sm={10}>
+            <Col sm={2}>
               <FormControl name="username" onChange={this.onChangeHandle.bind(this)} type="email" placeholder="Email" />
             </Col>
           </FormGroup>
 
-          <FormGroup controlId="formHorizontalPassword">
+          <FormGroup controlId="formHorizontalPassword" >
             <Col componentClass={ControlLabel} sm={2}>
               Password
               </Col>
-            <Col sm={10}>
+            <Col sm={2}>
               <FormControl name="password" onChange={this.onChangeHandle.bind(this)} type="password" placeholder="Password" />
             </Col>
           </FormGroup>
